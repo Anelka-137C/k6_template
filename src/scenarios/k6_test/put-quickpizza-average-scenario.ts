@@ -1,6 +1,6 @@
 import type { AverageLoadScenario } from "../../types/scenarios";
 
-const scenario_name: string = "quickpizza_average_put_test";
+const scenario_name = "quickpizza_average_put_test";
 
 const buildPutQuickPizzaScenario = (startTime: string, execFunction: () => void): AverageLoadScenario<typeof scenario_name> => {
     return {

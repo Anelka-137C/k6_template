@@ -1,6 +1,6 @@
 import type { AverageLoadScenario } from "../../types/scenarios";
 
-const scenario_name: string = "k6_average_get_test";
+const scenario_name = "k6_average_get_test";
 
 const buildGetK6Scenario = (startTime: string, execFunction: () => void): AverageLoadScenario<typeof scenario_name> => {
     return {

@@ -1,0 +1,23 @@
+{
+  "name": "k6_template",
+  "version": "1.0.0",
+  "description": "k6 REST Test Framework in TypeScript",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"Run k6 tests directly using: k6 run <path-to-test.ts>\" && exit 0"
+  },
+  "keywords": [
+    "k6",
+    "typescript",
+    "load-testing",
+    "performance-testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/k6": "^2.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
